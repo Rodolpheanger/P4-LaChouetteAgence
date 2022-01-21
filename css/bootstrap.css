@@ -1379,7 +1379,7 @@ html {
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff
@@ -3085,7 +3085,7 @@ input[type=search] {
 input[type=checkbox],
 input[type=radio] {
     margin: 4px 0 0;
-    margin-top: 1px\9;
+    margin-top: 1px;
     line-height: normal
 }
 
@@ -3229,7 +3229,7 @@ input[type=search] {
 .radio input[type=radio],
 .radio-inline input[type=radio] {
     position: absolute;
-    margin-top: 4px\9;
+    margin-top: 4px;
     margin-left: -20px
 }
 
