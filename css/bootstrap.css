@@ -1845,9 +1845,10 @@ abbr[title] {
 
 blockquote {
     padding: 10px 20px;
-    margin: 0 0 20px;
-    font-size: 17.5px;
-    border-left: 5px solid #eee
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 blockquote ol:last-child,
@@ -1917,6 +1918,10 @@ code {
     color: #c7254e;
     background-color: #f9f2f4;
     border-radius: 4px
+}
+
+cite {
+    font-style: normal;
 }
 
 kbd {
@@ -4794,13 +4799,16 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 10px 15px;
+    border-bottom: transparent solid 2px;
+
 }
 
 .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    background-color: #eee
+    background-color: #eee;
+    border-bottom: #F3976C solid 2px;
 }
 
 .nav>li.disabled>a {
