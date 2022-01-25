@@ -682,6 +682,10 @@ p {
     font-size: 22px;
 }
 
+.h2-30px {
+    font-size: 30px;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -758,7 +762,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(132, 103, 65, .8);
+    background-color: rgba(120, 100, 70, .8);
     padding: 20px 40px 40px 40px;
 }
 
