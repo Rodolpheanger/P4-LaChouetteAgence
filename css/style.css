@@ -684,6 +684,7 @@ p {
 
 .h2-30px {
     font-size: 30px;
+    position: relative;
 }
 
 .tight-width-whitespace {
