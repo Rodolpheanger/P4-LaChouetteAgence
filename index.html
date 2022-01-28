@@ -124,6 +124,7 @@
                 <picture>
                   <source srcset="img/logo-chouette.webp" type="image/webp" />
                   <source srcset="img/logo-chouette.png" type="image/png" />
+                   <!-- Modification contenu attribut alt avec texte représentatif de l'image -->
                   <img
                     src="img/logo-chouette.png"
                     alt="Logo représentant une chouette stylisée"
@@ -265,16 +266,15 @@
                   data-lightbox="img/journal-local.jpg"
                   data-gallery-id="gallery-1"
                   data-caption="Refonte d'un site web pour un journal local"
-                  data-frame="snapshot-lb"
-                >
+                  data-frame="snapshot-lb">
+                  <!-- Conversion et compression images format jpeg + ajout format webp + mise en place balise <picture> avec sources différentes pour que le navigateur charge le format compatible -->
                   <picture>
                     <source srcset="img/journal-local.webp" type="image/webp" />
                     <source srcset="img/journal-local.jpg" type="image/jpg" />
                     <img
                       src="img/journal-local.jpg"
                       alt="Empilement de magazines ouverts"
-                      class="img-responsive portfolio-thumb"
-                    />
+                      class="img-responsive portfolio-thumb"/>
                   </picture>
                 </a>
                 <h3 class="mg-md text-center">
@@ -416,6 +416,7 @@
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
+                    <!-- Ajout attribut aria-label -->
                     <a
                       class="social"
                       href="https://twitter.com"
